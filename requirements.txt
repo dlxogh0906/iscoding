@@ -1,0 +1,44 @@
+# 웹사이트 공지사항 자동 QA 시스템 필수 패키지
+fastapi==0.104.1
+uvicorn==0.24.0
+requests==2.31.0
+beautifulsoup4==4.12.2
+google-generativeai==0.8.5
+python-multipart==0.0.6
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# docTR OCR 모델 지원
+python-doctr[torch]
+
+# Hugging Face OCR 모델 지원
+torch==2.1.0
+transformers==4.46.3
+accelerate==1.9.0
+
+# 기존 패키지들 (필요시 사용)
+flask==3.0.0
+tensorflow==2.19.0
+pillow==11.0.0
+PyMuPDF==1.24.11
+pandas==2.0.3
+numpy==1.26.4
+# faiss-gpu-cu12==1.11.0
+langchain==0.1.6
+pytesseract==0.3.13
+ultralytics==8.3.170
+scikit-learn==1.7.1
+bitsandbytes==0.46.1
+python-pptx==0.6.23
+pdfminer.six==20221105
+opencv-python==4.9.0.80
+pdf2image==1.17.0
+sentencepiece==0.1.99
+regex==2023.12.25
+easyocr==1.7.1
+layoutparser==0.3.4
+tqdm==4.66.4
+loguru==0.7.2
+pyyaml==6.0.1
+rich==13.7.1
+albumentations==1.4.3
